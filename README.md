@@ -10,4 +10,4 @@ Based on Douglas Crockford ideas.
 * methods cannot be modified/added
 * no prototype duplication
 
-`myCounter.js` exports a factory function, creating a set of closures, behaving like a class, with the differences described above.
+`myCounter.ts` exports a factory function, creating a set of closures, behaving like a class, with the differences described above.

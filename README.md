@@ -2,7 +2,7 @@
 
 Factory function returning a frozen object instead of a class.
 
-Taken from [Douglas Crockford ideas](https://www.youtube.com/watch?v=bo36MrBfTk4).
+Based on [Douglas Crockford ideas](https://www.youtube.com/watch?v=bo36MrBfTk4).
 
 * Based on closures, no `this` keyword
 * Prototypes are frozen

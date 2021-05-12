@@ -1,0 +1,11 @@
+{
+    "name": "factoryjs",
+    "version": "1.0.0",
+    "description": "Test with Factory Classes",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Paolo Denti",
+    "license": "ISC"
+}

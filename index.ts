@@ -1,7 +1,7 @@
-const Counter = require("./myCounter");
+import MyCounter from "./myCounter";
 
 const main = async () => {
-    const c = Counter({ name: "some counter ..." });
+    const c = MyCounter({ name: "some counter ..." });
 
     c.setVal(3);
     c.add();

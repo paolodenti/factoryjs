@@ -1,5 +1,6 @@
-module.exports = ({ name }) => {
+const MyCounter = (params: { name: string }) => {
     let count = 0;
+    const { name } = params;
 
     const add = (num = 1) => {
         count += num;
@@ -15,7 +16,7 @@ module.exports = ({ name }) => {
         return count;
     };
 
-    const setVal = _count => {
+    const setVal = (_count: number) => {
         count = _count;
     };
 
@@ -36,3 +37,5 @@ module.exports = ({ name }) => {
         log
     });
 };
+
+export default MyCounter;

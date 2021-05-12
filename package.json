@@ -2,10 +2,17 @@
     "name": "factoryjs",
     "version": "1.0.0",
     "description": "Test with Factory Classes",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
-        "start": "node index.js"
+        "start": "ts-node index.ts",
+        "build": "tsc"
     },
     "author": "Paolo Denti",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^15.0.2",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    }
 }
